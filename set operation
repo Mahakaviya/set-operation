@@ -1,0 +1,13 @@
+#Ilustrating different set of operations#
+set_A={2,5,6,77,11,'A','C'}
+set_B={"TAMIL","PYTHON",'A','C'}
+set_U=set_A|set_B
+#displaying all elements in two sets#
+print("Union of two sets",set_U)
+#displaying common elements of two sets#
+print("Intersection of two sets",set_A&set_B)
+#displaying only one set of two#
+print("Difference of two sets",set_A-set_B)
+#displaying uncommon elements of two sets#
+print("symmetric diference of two sets",set_A^set_B)
+
